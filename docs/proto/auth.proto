@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = ".;pb";
+
+import "google/protobuf/empty.proto";
+
+message LoginRequest {
+  string username = 1; // 账号
+  string password = 2; // 密码
+}
+
+message LoginResponse {
+  oneof response {
+    string account = 1;
+    string error = 2;
+  }
+}
+
+message InfoResponse {
+  string account = 1;
+  string name = 2;
+  int32 age = 3;
+}
+
+service OrderManagement {
+  rpc login(LoginRequest) returns (LoginResponse);
+  rpc getInfo(google.protobuf.Empty) returns (InfoResponse);
+}

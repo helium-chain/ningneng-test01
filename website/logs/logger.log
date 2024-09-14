@@ -1,0 +1,4 @@
+{"level":"INFO","ts":"2024-09-14T12:48:30+08:00","caller":"log/logger.go:15","msg":"请求日志","TIME":"2024-09-14T12:48:30+08:00","Method":"/OrderManagement/login","Request":"username:\"root\"  password:\"root\""}
+{"level":"INFO","ts":"2024-09-14T12:48:30+08:00","caller":"log/logger.go:23","msg":"响应日志","TIME":"2024-09-14T12:48:30+08:00","Method":"/OrderManagement/login","Response":"account:\"root\""}
+{"level":"INFO","ts":"2024-09-14T12:48:30+08:00","caller":"log/logger.go:15","msg":"请求日志","TIME":"2024-09-14T12:48:30+08:00","Method":"/OrderManagement/getInfo","Request":""}
+{"level":"INFO","ts":"2024-09-14T12:48:30+08:00","caller":"log/logger.go:23","msg":"响应日志","TIME":"2024-09-14T12:48:30+08:00","Method":"/OrderManagement/getInfo","Response":"account:\"root\"  name:\"张三\"  age:15"}

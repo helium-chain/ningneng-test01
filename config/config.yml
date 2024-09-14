@@ -1,0 +1,11 @@
+application:
+  name: "my-app"
+  mode: "test"
+  time_zone: "Asia/Shanghai"
+
+logger:
+  path: "/website/logs"
+  max_size: 100
+  max_backups: 10
+  max_age: 180
+  compress: false
